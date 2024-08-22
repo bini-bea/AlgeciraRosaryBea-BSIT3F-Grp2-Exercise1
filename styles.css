@@ -1,0 +1,72 @@
+@font-face {
+  font-family: F1-Bold;
+  src: url('FONTS/Formula1-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: F1-Regular;
+  src: url('FONTS/Formula1-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: F1-Wide;
+  src: url('FONTS/Formula1-Wide.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+    font-family: F1-Regular, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  background-image: url('IMG/bg3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+h1 {
+  border: 1px solid #ccc;
+  padding: 50px;
+  margin-bottom: 20px;
+  font-family: F1-Wide, Sans-serif;
+  font-size: 32px;
+  color: #A6051A;
+  margin-bottom: 20px;
+  background-image: url('IMG/bg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.team-button {
+    background-image: url('IMG/racecar.png');
+    background-size: cover;
+    background-position: center;
+    font-family: F1-Regular, sans-serif;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.team-button img {
+    width: 150px;
+    margin-right: 450px;
+}
+
+footer {
+    margin-top: 30px;
+  background-color: #333;
+  color: white;
+    font-family: F1-Bold, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
